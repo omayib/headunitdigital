@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:headunitdigital"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="271" Width="463"  KeyDown="OnKeyDown">
+    <Grid Margin="0,0,0,0" Background="Black">
+        <Label x:Name="labelFuel" Content="17" Foreground="LightGreen" HorizontalAlignment="Left" Margin="336,99,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Source Code Pro" FontWeight="Bold" RenderTransformOrigin="1.575,0.539"/>
+        <Label Content="Liter" Foreground="White"  HorizontalAlignment="Left" Margin="357,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.061,0.615"/>
+        <Label Content="14:30:59" Foreground="White" HorizontalAlignment="Left" Margin="335,43,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelRpm" Content="87" Foreground="LightYellow" HorizontalAlignment="Right" Margin="0,99,327,0" VerticalAlignment="Top" FontSize="36" FontFamily="Source Code Pro" FontWeight="Bold"/>
+        <Label Content="rpm"  Foreground="White"  HorizontalAlignment="Left" Margin="96,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.531,2.808"/>
+        <Label Content="x1000"  Foreground="White"  HorizontalAlignment="Left" Margin="75,90,0,0" VerticalAlignment="Top" FontSize="10"/>
+
+        <Label x:Name="labelSpeed" Content="120"  Foreground="LightYellow"  HorizontalAlignment="Left" Margin="157,64,0,0" VerticalAlignment="Top" FontSize="72" FontFamily="Source Code Pro" FontWeight="Bold" Height="108" Width="156" Background="{x:Null}"/>
+        <Label Content="km/h"  Foreground="White"  HorizontalAlignment="Left" Margin="256,139,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fuel"  Foreground="White"  HorizontalAlignment="Left" Margin="335,90,0,0" VerticalAlignment="Top" FontSize="10"/>
+
+
     </Grid>
 </Window>
